@@ -110,6 +110,10 @@ header p {
     padding-top: 100px;
 }
 
+.about > .container {
+    width: 56.25%;
+}
+
 .about img {
     padding-bottom: 40px;
 }
