@@ -1,9 +1,10 @@
-html {
-    min-width: 1170px;
-}
-
 body {
     background: #fff;
+}
+
+
+.container {
+    padding: 0;
 }
 
 h1, h2, h3, h4, p, a, div{
@@ -76,7 +77,6 @@ nav img {
 }
 
 header {
-    /*margin-top: 130px;*/
     background: url(../img/top-banner.jpg);
     height: 782px;
 }
@@ -107,10 +107,7 @@ header p {
     background-size: 100%;
     height: 754px;
     text-align: center;
-}
-
-.about > .container {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .about img {
@@ -135,7 +132,7 @@ header p {
 }
 
 .about_text {
-    width: 770px;
+    /*width: 770px;*/
     margin: 0 auto;
     text-align: left;
 }
@@ -145,16 +142,6 @@ header p {
     background-size: 100%;
     height: 667px;
     text-align: center;
-}
-
-.service > .container-fluid {
-    padding: 0;
-    margin: 0 auto;
-}
-
-.service_table {
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .service .row {
@@ -180,7 +167,7 @@ header p {
 }
 
 .member_two {
-    width: 1170px;
+    /*width: 1170px;*/
     margin:0 auto;
 }
 
@@ -248,37 +235,30 @@ header p {
     height: 437px;
 }
 
-.footer_text {
-    padding-top: 100px;
-    width: 1170px;
-    margin: 0 auto;
-}
-
-.footer_text > hr {
-    margin-top: 0;
+footer hr {
     margin-left: 0;
 }
 
-.footer_text > .sub_left {
+footer .sub_left {
     margin-right: 110px;
     height: 110px;
 }
 
-.footer_text > div > h4 {
+footer .container > div > h4 {
     margin-right: 18px;
 }
 
-.footer_text > div > p {
+footer .container > div > p {
     font-size: 16px;
     margin-top: -2px;
 }
 
-.footer_text .br {
+footer .container .br {
     width: 10px;
     height: 20px;
 }
 
-.footer_text .sub_right {
+footer .container .sub_right {
     width: 400px;
 }
 
