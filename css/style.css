@@ -43,19 +43,14 @@ nav {
 nav > .container-fluid {
     padding-left: 60px;
     padding-right: 70px;
+    padding-top: 30px;
 }
 
+/*
 .navbar-header::before {
     display: none;
 }
-
-.navbar-header {
-    height: 130px;
-}
-
-.navbar-header > .navbar-brand {
-    padding-top: 30px;
-}
+*/
 
 nav img {
     width: 443px;
@@ -63,7 +58,7 @@ nav img {
 }
 
 .navbar-text {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: -15px;
 }
 
@@ -75,6 +70,25 @@ nav img {
 .navbar-text > li > a:hover, a:active {
     color: #d7ac41;
     background: none;
+}
+
+nav button {
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
+
+@media (min-width: 976px){
+    button {
+        display: none !important;
+    }
+}
+@media (max-width: 976px){
+    .navbar-collapse {
+        display: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
 }
 
 header {
@@ -173,6 +187,24 @@ header p {
     margin-left: 30px;
     margin-top: 30px;
     font-family: '微軟正黑體';
+}
+
+@media (max-width: 1240px) and (min-width: 976px){
+    .service > .container {
+        width: 900px;
+    }
+}
+
+@media (max-width: 976px) and (min-width: 768px){
+    .service > .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px){
+    .service > .container {
+        width: 300px;
+    }
 }
 
 .member {
@@ -285,4 +317,20 @@ footer > p {
 .clear {
     clear: both;
     display: block;
+}
+
+@media (max-width: 1200px){
+    .member_space {
+        display: none;
+    }
+    .member > .container {
+        width: 570px;
+    }
+
+    .contact > .container{
+        width: 200px;
+    }
+    .contact > .container > hr, h2, div{
+        margin-left: auto;
+    }
 }
