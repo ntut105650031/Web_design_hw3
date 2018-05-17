@@ -183,7 +183,6 @@ header p {
 }
 
 .about_text {
-    /*width: 770px;*/
     margin: 0 auto;
     text-align: left;
 }
@@ -357,5 +356,12 @@ footer > p {
     }
     .contact > .container > hr, h2, div{
         margin-left: auto;
+    }
+
+    .contact .sub_left h4 {
+        margin-bottom: 10px;
+    }
+    .contact .sub_left .br {
+        height: 10px;
     }
 }
